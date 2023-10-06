@@ -28,6 +28,8 @@ public class Main {
         System.out.println(b);
         b = Weekday.MONDAY.isHoliday();
         System.out.println(b);
+        b = Weekday.SUNDAY.isHoliday();
+        System.out.println(b);
         System.out.println(Weekday.MONDAY.isWeekDay());
 
     }
